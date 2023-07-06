@@ -93,8 +93,6 @@ class SearchLocation extends React.Component {
 
       // seting icons
       this.get_WeatherIcon(this.weatherIcon, response.weather[0].id);
-
-      console.log(response);
     } else {
       this.setState({
         error: true
