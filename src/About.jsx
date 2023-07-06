@@ -68,7 +68,7 @@ const About = () => {
         <div className="feature-one">
           <h3>1. Check weather by city and country</h3>
           <p>
-            User s can check the weather condition of a city by entering the
+            Users can check the weather condition of a city by entering the
             city and country name in the provided input fields.
           </p>
         </div>
