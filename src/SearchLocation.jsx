@@ -34,6 +34,7 @@ class SearchLocation extends React.Component {
     };
   }
 
+  {/* Use the weather range Id to determine the icon to display with the server response */}
   get_WeatherIcon(icons, rangeId) {
     switch (true) {
       case rangeId >= 200 && rangeId < 232:
@@ -62,6 +63,7 @@ class SearchLocation extends React.Component {
     }
   }
 
+{/* Convert from kelvin to celcius */}
   calCelsius(temp) {
     let cell = Math.floor(temp - 273.15);
     return cell;
