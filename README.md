@@ -24,4 +24,6 @@ App Landing page:
 
 ![aaaaa](https://github.com/ael-urrim/RealWeather-App/assets/80631962/1a78b2b3-767c-464b-9bf3-6ead274a9a11)
 
-
+### `How to use the app`
+The app is very simple to use and easy to navigate.
+Click the "Check Weather" menu on the navbar. Insert your desired city and country name in the input fields provided and the data requested will be displayed on the page. That is it. Very simple to use.
