@@ -32,6 +32,7 @@ const Form = props => {
   );
 };
 
+// Display errors if the input field is empty
 const error = props => {
   return (
     <div className="alert alert-danger mx-5" role="alert">
