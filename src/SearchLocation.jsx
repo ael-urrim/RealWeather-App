@@ -22,7 +22,7 @@ class SearchLocation extends React.Component {
       description: "",
       error: false
     };
-
+    {/* Set weather Icon according to weather condition */}
     this.weatherIcon = {
       Thunderstorm: "wi-thunderstorm",
       Drizzle: "wi-sleet",
